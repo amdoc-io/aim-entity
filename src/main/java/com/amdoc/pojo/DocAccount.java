@@ -33,6 +33,8 @@ public class DocAccount {
 
     AuthType authType;
 
+    String accessToken;
+
     Boolean isEmailVerified;
 
     String hashedPassword;
