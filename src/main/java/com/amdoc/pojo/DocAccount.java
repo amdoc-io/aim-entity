@@ -10,6 +10,7 @@ import lombok.experimental.NonFinal;
 import lombok.extern.jackson.Jacksonized;
 
 import java.time.ZonedDateTime;
+import java.util.List;
 
 @Value
 @NonFinal
@@ -46,6 +47,8 @@ public class DocAccount {
     String profileImageUrl;
 
     SubscriptionPlan subscriptionPlan;
+
+    List<String> authorities;
 
     ZonedDateTime createdAt;
 
