@@ -54,6 +54,8 @@ public class DocAccount {
 
     Boolean isNewsSubscribed;
 
+    Boolean isSetupComplete;
+
     ZonedDateTime createdAt;
 
     ZonedDateTime updatedAt;
