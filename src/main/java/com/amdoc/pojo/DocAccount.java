@@ -50,6 +50,10 @@ public class DocAccount {
 
     List<String> authorities;
 
+    String jobTitle;
+
+    Boolean isNewsSubscribed;
+
     ZonedDateTime createdAt;
 
     ZonedDateTime updatedAt;
