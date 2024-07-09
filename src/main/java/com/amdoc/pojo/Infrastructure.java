@@ -2,6 +2,7 @@ package com.amdoc.pojo;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.Builder;
+import lombok.NonNull;
 import lombok.Value;
 import lombok.experimental.NonFinal;
 import lombok.extern.jackson.Jacksonized;
@@ -16,7 +17,9 @@ import java.time.ZonedDateTime;
 public class Infrastructure {
 
     String id;
+    @NonNull
     String email;
+    @NonNull
     String organizationId;
     String gitProvider;
     GitOAuthToken gitOauthToken;
