@@ -3,5 +3,6 @@ package com.amdoc.type;
 public enum AuthType {
     GOOGLE,
     GITHUB,
-    EMAIL
+    EMAIL,
+    LINKEDIN
 }
