@@ -4,5 +4,6 @@ public enum AuthType {
     GOOGLE,
     GITHUB,
     EMAIL,
-    LINKEDIN
+    LINKEDIN,
+    FACEBOOK
 }
