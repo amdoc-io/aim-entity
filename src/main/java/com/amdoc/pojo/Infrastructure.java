@@ -25,6 +25,7 @@ public class Infrastructure {
     String docInitialRepo;
     Integer currentStep;
     String docInitialWebsite;
+    ZonedDateTime docInitialWebsiteCreatedAt;
     ZonedDateTime createdAt;
     ZonedDateTime updatedAt;
 }
