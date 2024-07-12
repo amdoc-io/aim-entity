@@ -21,6 +21,7 @@ public class Infrastructure {
     String gitProvider;
     GitOAuthToken gitOauthToken;
     GitInstallationToken gitInstallationToken;
+    GithubUser githubUser;
     String gitInstallationId;
     String docInitialRepo;
     Integer currentStep;
