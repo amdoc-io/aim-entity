@@ -28,6 +28,7 @@ public class DocSettings {
     String privacyPolicyUrl;
     String callToActionName;
     String callToActionUrl;
+    String contactUrl;
     String infoEmail;
     String supportEmail;
     String careerEmail;
